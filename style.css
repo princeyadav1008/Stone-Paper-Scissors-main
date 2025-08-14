@@ -1,11 +1,12 @@
 * {
     margin: 0;
     text-align: center;
-    background-color: #0bbb37;
+    background-color: #f4f4f9; /* light gray background */
 }
-h1{
+h1 {
     height: auto;
     width: auto;
+    color: #222; /* dark text */
 }
 .choices {
     height: 300px;
@@ -23,8 +24,9 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 0; */
     border-radius: 50%;
+    background-color: #e1e5ea; /* soft blue-gray */
+    transition: background-color 0.3s ease;
 }
 img {
     height: 120px;
@@ -36,21 +38,15 @@ img {
     height: auto;
     width: auto;
     padding: 10px;
-    /* display: inline;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
+    color: #1e3a8a; /* deep blue text */
 }
 .comp {
     height: auto;
     width: auto;
     padding: 10px;
-    /* display: inline;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
+    color: #b91c1c; /* deep red text */
 }
-.user-comp{
+.user-comp {
     height: auto;
     width: auto;
     padding: 1rem;
@@ -58,22 +54,25 @@ img {
     justify-content: center;
     align-items: center;
 }
-.abc1{
+.abc1 {
     font-size: 40px;
+    color: #2563eb; /* blue */
 }
-.abc2{
+.abc2 {
     font-size: 40px;
+    color: #dc2626; /* red */
 }
-.result{
+.result {
     padding: 10px;
     display: inline;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    background-color: blueviolet;
+    background-color: #f97316; /* orange */
+    color: white;
     border-radius: 20%;
 }
-.choice:hover{
+.choice:hover {
     cursor: pointer;
-    background-color: #220bbb;
+    background-color: #6366f1; /* violet-blue hover */
 }
